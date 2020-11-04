@@ -13,7 +13,7 @@ before_script:
 # safelist
 branches:
   only:
-    - travis3
+    - master
 
 env: DJANGO_SETTINGS_MODULE="pur_beurre.pur_beurre.settings"
 
