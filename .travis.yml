@@ -15,10 +15,10 @@ branches:
   only:
     - master
 
-env: DJANGO_SETTINGS_MODULE="pur_beurre.pur_beurre.settings"
+env: DJANGO_SETTINGS_MODULE="pur_beurre.settings"
 
 services:
   - postgresql
 
 script:
-  - pytest
+  - pytest pur_beurre/
